@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<meta charset="UTF-8">
+<title></title>
+<link rel="stylesheet" type="text/css" href="bootstrap.css">
+
+<link rel="stylesheet" type="text/css"
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+	form{
+	color: white;
+	}
+	h1{
+	color: white;
+	}
+	body{
+	
+	background : url("https://images.unsplash.com/photo-1431608660976-4fe5bcc2112c?dpr=1&auto=compress,format&fit=crop&w=376&h=251&q=80&cs=tinysrgb&crop=");
+	background-size: cover;
+	background-position: center;	
+}
+</style>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed"
+					data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+					aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><i class="fa fa-book"
+					aria-hidden="true"></i> My Book Tracker</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse"
+				id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a href="#"><i class="fa fa-pencil-square"
+							aria-hidden="true"></i> About Us<span class="sr-only">(current)</span></a></li>
+					<li><a href="#"><i class="fa fa-phone-square"
+							aria-hidden="true"></i> Contact</a></li>
+				</ul>
+				</li>
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="Register.html" ><i class="fa fa-user-plus"
+							aria-hidden="true"></i> Sign Up</a></li>
+					<li><a href="Login.html"><i class="fa fa-sign-in"
+							aria-hidden="true"></i> Login In</a></li>
+				</ul>
+				</li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+	
+	<div class="container">
+<div class="col-lg-6">
+<h1>Add Courses</h1>
+	<form action='AddCourses' method="get">
+	
+		<div class="form-group">
+			<label for="CourseID">Course ID </label> <input name="CourseID"
+				type="text" class="form-control" 
+				placeholder="Course ID" required>
+		</div>
+		
+		<div class="form-group">
+			<label for="CourseName">Course Name </label> <input name="CourseName"
+				type="text" class="form-control" 
+				placeholder="Course Name" required>
+		</div>
+		
+		
+		<button type="submit" class="btn btn-default">Submit</button>
+	</form>
+</div>
+</div>	
+
+	<script src="https://code.jquery.com/jquery-3.1.1.js"
+		integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+		crossorigin="anonymous"></script>
+	<script src="/LibMgmtJav/WebContent/bootstrap.min.js"></script>
+</body>
+</html>
